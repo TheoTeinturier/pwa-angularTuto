@@ -8,6 +8,8 @@ const routes: Routes = [
   { path: '', component: HelloComponent },
 ];
 
+
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

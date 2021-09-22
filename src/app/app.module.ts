@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+//import { MatCardModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -21,8 +22,10 @@ import { environment } from '../environments/environment';
       // or after 30 seconds (whichever comes first).
       registrationStrategy: 'registerWhenStable:30000'
     })
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
